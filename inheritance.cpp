@@ -71,14 +71,14 @@ public:
     }
 };
 
-class MBase1 {
+class MDrive1 {
 public:
-    MBase1() {
-        cout << "MBase1 construction" << endl;
+    MDrive1() {
+        cout << "MDrive1 construction" << endl;
     }
-    ~MBase1() {
+    ~MDrive1() {
     
-        cout << "MBase1 destruction" << endl;
+        cout << "MDrive1 destruction" << endl;
     }
 };
 
