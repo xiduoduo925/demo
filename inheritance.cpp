@@ -79,6 +79,18 @@ public:
     ~MDrive1() {
     
         cout << "MDrive1 destruction" << endl;
+
+    }
+};
+
+class MDrive2 {
+public:
+    MDrive2 () {
+        cout << "MDrive2  construction" << endl;
+    }
+    ~MDrive2 () {
+    
+        cout << "MDrive2  destruction" << endl;
         
     }
 };
@@ -92,9 +104,13 @@ public:
     
         cout << "MDrive destruction" << endl;
     }
+private:
+    MDrive1 md1;
+    MDrive2 md2;
 };
 
 int main(){
-    Drive d;
+    // Drive d;
+    MDrive md;
     return 0;
 }
