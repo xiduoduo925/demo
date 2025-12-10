@@ -36,7 +36,7 @@ public:
     }
 };
 
-class Drive : public Base{
+class Drive : public Base{  // Drive依赖于Base,这里的Base是基类
 public:
     Drive() {
         cout << "Drive construction" << endl;
